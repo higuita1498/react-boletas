@@ -1,5 +1,3 @@
-import {useState} from 'react'
-
 import Sidebar from "./components/Sidebar"
 import Balotas from "./components/Balotas"
 import Carrito from "./components/Carrito"

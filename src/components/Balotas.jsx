@@ -7,7 +7,6 @@ import {
 
 export default function Balotas() {
   return (
-    // <main className="lg:pl-32 lg:pr-96 pb-20">
         <div className="md:p-8 p-4">
           {/* Header */}
           <Header />
@@ -92,6 +91,5 @@ export default function Balotas() {
             />
           </div>
         </div>
-      // </main>
   )
 }

@@ -1,14 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import { RouterProvider } from 'react-router-dom'
 
+import './index.css'
+import router from './router'
 import { BoletasProvider } from './context/BoletasProvider'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BoletasProvider>
-      <App />
+      <RouterProvider router={router} />
     </BoletasProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
